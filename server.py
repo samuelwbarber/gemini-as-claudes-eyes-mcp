@@ -21,7 +21,7 @@ it again afterwards.  Nothing else is ever granted.
 
 Configuration (environment variables, all optional)
 ---------------------------------------------------
-AGY_BIN               path to agy.exe       default: %LOCALAPPDATA%\\agy\\bin\\agy.exe
+AGY_BIN               path to agy           default: agy on PATH, else %LOCALAPPDATA%\\agy\\bin\\agy.exe
 AGY_SETTINGS          agy settings.json     default: ~/.gemini/antigravity-cli/settings.json
 AGY_WORKDIR           cwd for agy runs      default: the user's home (must be a trusted agy workspace)
 GEMINI_VIDEO_MODEL    default model id      default: gemini-3.1-pro-high
